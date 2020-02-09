@@ -1,0 +1,364 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sectionHeader{
+    font-size: 4em;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+}
+
+.s1 p{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 800;
+}
+
+/* Background Color / Image */
+.s1{
+    background-color: #2A4B7C;
+}
+
+.s2{
+    background-color: #FF6F61; 
+}
+
+.s3{
+    background-color: #45B8AC;
+}
+
+.s4{
+    background-color: #EFC050;
+}
+
+/* Nav Bar */
+
+
+/* About Me */
+.aboutMe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutMe img{
+    height: 25em;
+    width: 25em;
+}
+
+.aboutDesc{
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 500;
+    width: 40%;
+}
+
+/* Services */
+.servicesContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.descriptionContainer{
+    width: 60%;
+}
+
+.descriptionContainer p{
+    font-size: 1.2em;
+}
+
+.servicesTitle{
+    font-size: 2em;
+    color: #fff;
+}
+
+.servicesList li{
+    padding: .6em 0px;
+    font-size: 1.1em;
+}
+
+.divider{
+    padding: 0px 10px;
+}
+
+
+/* Contact Me */
+form{
+  width: 70%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 50px auto; /*Auto is whats making it centered */
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5)
+}
+
+label{
+  display: block; /*block breaks up the elements */
+  padding: 15px 0px;
+}
+
+input, textarea{  /*change the size of the input areas and textarea */
+  width: 96%;
+  padding: 10px;
+  border: 1px solid transparent;
+  background-color: #ececec;
+  outline: none;
+  transition: all 0.5s;
+}
+
+input:focus, textarea:focus{
+  border: 2px solid #CD853F;
+  background-color: #fff;
+}
+
+button{
+  padding: 15px 15px;
+  margin: 20px 0px;
+  border: none;
+  background-color:  #EFC050;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .5s;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: #3AC7F2;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+form label{
+  display: block;
+}
+
+@media screen and (max-width: 1350px){
+    /* Services */
+    .servicesContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .aboutMe{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutDesc{
+        font-size: 1.2em;
+        color: #fff;
+        font-weight: 500;
+        width: 40%;
+    }
+     /* Services */
+    .servicesContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 85%;
+        margin: 0 auto;
+        }
+
+    .servicesTitle{
+        font-size: 1.6em;
+        color: #fff;
+    }
+
+    .descriptionContainer p{
+        font-size: 1em;
+    }
+
+    .servicesList li{
+        padding: .6em 0px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sectionHeader{
+        font-size: 3em;
+        color: #fff;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .s1 p{
+        text-align: center;
+        font-size: 1.4em;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    /* About Me */
+    .aboutMe{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .aboutMe img{
+        height: 17em;
+        width: 17em;
+    }
+
+    .aboutDesc{
+        font-size: 1.1em;
+        color: #fff;
+        font-weight: 500;
+        width: 50%;
+    }
+
+    /* Services */
+    .servicesContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .descriptionContainer{
+        width: 60%;
+    }
+
+    .descriptionContainer p{
+        font-size: .9em;
+    }
+
+    .servicesTitle{
+        font-size: 1.3em;
+        color: #fff;
+    }
+
+    .servicesList li{
+        padding: .6em 0px;
+        font-size: .9em;
+    }
+
+    .divider{
+        padding: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sectionHeader{
+        font-size: 2em;
+        color: #fff;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .s1 p{
+        text-align: center;
+        font-size: 1em;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    /* About Me */
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .aboutMe img{
+        height: 13em;
+        width: 13em;
+    }
+
+    .aboutDesc{
+        font-size: .9em;
+        color: #fff;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Services */
+    .servicesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    .descriptionContainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .descriptionContainer p{
+        font-size: .8em;
+    }
+
+    .rates{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .servicesTitle{
+        font-size: 1.2em;
+        color: #fff;
+    }
+
+    .servicesList li{
+        padding: .6em 0px;
+        font-size: .9em;
+    }
+
+    .divider{
+        padding: 0px 5px;
+    }
+
+    /* Contact Me */
+    form{
+        width: 60%;
+        max-width: 600px;
+        padding: 20px;
+        margin: 50px auto; /*Auto is whats making it centered */
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5)
+    }
+
+    input, textarea{  /*change the size of the input areas and textarea */
+        width: 90%;
+        padding: 10px;
+        border: 1px solid transparent;
+        background-color: #ececec;
+        outline: none;
+        transition: all 0.5s;
+      }
+
+      button{
+        padding: 10px 10px;
+        
+      }
+}
