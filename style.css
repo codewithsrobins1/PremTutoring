@@ -120,6 +120,35 @@ body{
 }
 
 
+/* Testimonials */
+.testContainer{
+    width: 70%; 
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message p{
+    width: 80%;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+#author{
+    font-size: 1.3em;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.testContainer img{
+    height: 17em;
+    width: 17em;
+}
+
 /* Contact Me */
 form{
   width: 70%;
@@ -184,6 +213,20 @@ form label{
     width: 75%;
     margin: 0 auto;
     }
+
+    /* Testimonials */
+    .testContainer img{
+        height: 12em;
+        width: 12em;
+    }
+
+    .message p{
+        width: 70%;
+        color: #fff;
+        font-size: 1.1em;
+        margin: 0 auto;
+        font-style: italic;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -227,6 +270,20 @@ form label{
         padding: .6em 0px;
         font-size: 1em;
     }
+
+    /* Testimonials */
+    .testContainer img{
+        height: 11em;
+        width: 11em;
+    }
+
+    .message p{
+        width: 80%;
+        color: #fff;
+        font-size: 1.1em;
+        margin: 0 auto;
+        font-style: italic;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -247,7 +304,7 @@ form label{
     /* Nav */
     .navLinks{
         font-size: .9em;
-        width: 35%;
+        width: 45%;
     }
 
     /* About Me */
@@ -300,6 +357,28 @@ form label{
 
     .divider{
         padding: 0px 5px;
+    }
+
+    /* Testimonials */
+    .testContainer{
+        width: 80%; 
+
+    }
+    .testContainer img{
+        height: 10em;
+        width: 10em;
+    }
+
+    .message p{
+        width: 90%;
+        color: #fff;
+        font-size: .9em;
+        margin: 0 auto;
+        font-style: italic;
+    }
+    
+    #author{
+        font-size: 1em;
     }
 }
 
@@ -385,6 +464,36 @@ form label{
     .divider{
         padding: 0px 5px;
     }
+    /* Testimonials */
+    .testContainer{
+        width: 80%; 
+        margin: 2em auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .message p{
+        width: 60%;
+        color: #fff;
+        font-size: .7em;
+        margin: 0 auto;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #author{
+        font-size: .9em;
+        color: black;
+        font-weight: 600;
+        padding-top: 5px;
+    }
+
+    .testContainer img{
+        height: 7em;
+        width: 7em;
+    }
 
     /* Contact Me */
     form{
@@ -414,9 +523,14 @@ form label{
 @media screen and (max-width: 375px){
      /* Section Headers */
      .sectionHeader{
-        font-size: .9em;
+        font-size: 1.5em;
         color: #fff;
         font-weight: 800;
         text-align: center;
+    }
+
+    .navLinks{
+        width: 65%;
+        font-size: .7em;
     }
 }
