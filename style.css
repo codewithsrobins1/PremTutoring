@@ -31,11 +31,41 @@ body{
 }
 
 .s4{
+    background-color: #5B5EA6;
+}
+
+.s5{
     background-color: #EFC050;
 }
 
 /* Nav Bar */
+#fullpage{
+    position: relative;
+}
 
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    position: fixed;
+    top: 2%;
+    right: 3%;
+    z-index: 70;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+
+.navLinks a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
 
 /* About Me */
 .aboutMe{
@@ -157,6 +187,11 @@ form label{
 }
 
 @media screen and (max-width: 1024px){
+    /* Nav Bar */
+    .navLinks{
+        font-size: 1em;
+        width: 35%;
+    }
     .aboutMe{
         display: flex;
         justify-content: space-around;
@@ -207,6 +242,12 @@ form label{
         font-size: 1.4em;
         color: #fff;
         font-weight: 800;
+    }
+    
+    /* Nav */
+    .navLinks{
+        font-size: .9em;
+        width: 35%;
     }
 
     /* About Me */
@@ -263,6 +304,13 @@ form label{
 }
 
 @media screen and (max-width: 425px){
+     /* Nav */
+     .navLinks{
+        font-size: .7em;
+        width: 50%;
+    }
+
+    /* Section Headers */
     .sectionHeader{
         font-size: 2em;
         color: #fff;
@@ -361,4 +409,14 @@ form label{
         padding: 10px 10px;
         
       }
+}
+
+@media screen and (max-width: 375px){
+     /* Section Headers */
+     .sectionHeader{
+        font-size: .9em;
+        color: #fff;
+        font-weight: 800;
+        text-align: center;
+    }
 }
