@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
 }
 
 
@@ -77,8 +78,9 @@ body{
 }
 
 .aboutMe img{
-    height: 25em;
-    width: 25em;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
 }
 
 .aboutDesc{
@@ -216,8 +218,8 @@ form label{
 
     /* Testimonials */
     .testContainer img{
-        height: 12em;
-        width: 12em;
+        height: 14em;
+        width: 14em;
     }
 
     .message p{
