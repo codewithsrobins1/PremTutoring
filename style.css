@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
 }
 
 .sectionHeader{
@@ -26,7 +27,7 @@ body{
 }
 
 .s3{
-    background-color: #45B8AC;
+    background-color: #009B77;
 }
 
 .s4{
@@ -76,8 +77,9 @@ body{
 }
 
 .aboutMe img{
-    height: 25em;
-    width: 25em;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
 }
 
 .aboutDesc{
@@ -102,6 +104,7 @@ body{
 
 .descriptionContainer p{
     font-size: 1.2em;
+    color: #fff;
 }
 
 .servicesTitle{
@@ -112,6 +115,7 @@ body{
 .servicesList li{
     padding: .6em 0px;
     font-size: 1.1em;
+    color: #fff;
 }
 
 .divider{
@@ -215,8 +219,8 @@ form label{
 
     /* Testimonials */
     .testContainer img{
-        height: 12em;
-        width: 12em;
+        height: 14em;
+        width: 14em;
     }
 
     .message p{
