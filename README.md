@@ -1,6 +1,6 @@
 # Premrajan Tutoring
 
-Client tutorting website made using fullpage.js. Client requested very minimalistic design and layout for straightfroward information.
+Client tutoring website made using fullpage.js. Client requested very minimalistic design and layout for straightforward information.
 
 ## Link to Live Site
 
